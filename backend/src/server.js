@@ -19,6 +19,7 @@ app.use(express.json());    // Parse JSON bodies
 
 // //Routes
 app.use('/api',require('./routes/apiRoutes'))
+app.use('/employee',require('./routes/testingDBroutes'))
 
 //Simple route for testing
 app.get('/',(req,res)=>{

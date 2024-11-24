@@ -5,7 +5,7 @@ const Employee = require('../models/employeeModelTesting'); // Import the Task m
 const router = express.Router();
 
 // POST route to add a new task
-router.post('/employee', async (req, res) => {
+router.post('/', async (req, res) => {
   const { name, description, timeSpent } = req.body;
 
   try {

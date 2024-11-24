@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const dbURI = "mongodb+srv://jjnTimeSheet:toyotastjerome@cluster0.uvq6f.mongodb.net/"
+const dbURI = "mongodb+srv://jjnTimeSheet:toyotastjerome@cluster0.uvq6f.mongodb.net/toyotaStJerome"
 
 const connectDB = async () => {
     try {
