@@ -1,12 +1,17 @@
 //This file will set up the Express server and configure the routes.
 
 const express=require('express');
+const connectDB=require('./config/db')
 const dotenv = require('dotenv');
 const cors = require('cors')
 const PORT = process.env.PORT || 5000;
 
 // Initialize Express app
 const app = express();
+
+
+// Connect to MongoDB
+connectDB();
 
 // Middleware
 app.use(cors());           
