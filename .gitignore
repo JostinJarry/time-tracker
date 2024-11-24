@@ -1,0 +1,15 @@
+# Ignore node_modules directories for both frontend and backend
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore the VS Code workspace settings (optional)
+.vscode/
+
+# Ignore OS-specific files (optional)
+.DS_Store
+Thumbs.db
